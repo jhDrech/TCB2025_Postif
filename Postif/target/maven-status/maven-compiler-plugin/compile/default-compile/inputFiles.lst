@@ -1,0 +1,15 @@
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/controller/ContatoController.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/Comentario.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/Contato.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/Endereco.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/Post.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/Subpost.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/Tarefa.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/User.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/dao/ConnectionFactory.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/dao/ContatoDAO.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/dao/PostDAO.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/dao/TarefaDAO.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/model/dao/UserDAO.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/view/AgendaView.java
+/home/jh/Code/TCB2025_IFNote/ifnoteT/src/main/java/br/edu/ifpr/agenda/view/Main.java
