@@ -3,9 +3,9 @@ use Postif;
 create table user(
 	id int auto_increment primary key,
     nome varchar(55),
-    email varchar(55),
+    email varchar(55) not null,
     nascimento varchar(11),
-    username varchar (15) unique,
+    username varchar (15) unique not null,
     senha varchar(20) not null
     );
     
@@ -22,11 +22,11 @@ create table tarefas (
 create table posts(
 	id int auto_increment primary key,
     nome varchar(20) not null,
-    tarefaId int,
+    tarefaId int not null,
     descricao varchar(50),
-    userId int,
+    userId int not null,
     dataPostagem date default (current_date),
-    nomeAutor varchar(15) unique,
+    nomeAutor varchar(15) unique not null,
 
     foreign key(tarefaId) references tarefas(id),
     foreign key(userId) references user(id)

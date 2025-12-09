@@ -1,21 +1,18 @@
 package br.edu.ifpr.agenda.view;
 
-import java.nio.channels.SelectableChannel;
-
-import br.edu.ifpr.agenda.model.Tarefa;
-import br.edu.ifpr.agenda.model.User;
-import br.edu.ifpr.agenda.model.Post;
-import br.edu.ifpr.agenda.model.dao.TarefaDAO;
-import br.edu.ifpr.agenda.model.dao.UserDAO;
-import br.edu.ifpr.agenda.model.dao.PostDAO;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import br.edu.ifpr.agenda.controller.UserController;
-import br.edu.ifpr.agenda.controller.TarefaController;
 import br.edu.ifpr.agenda.controller.PostController;
+import br.edu.ifpr.agenda.controller.TarefaController;
+import br.edu.ifpr.agenda.controller.UserController;
+import br.edu.ifpr.agenda.model.Post;
 import br.edu.ifpr.agenda.model.SessaoUser;
+import br.edu.ifpr.agenda.model.Tarefa;
+import br.edu.ifpr.agenda.model.User;
+import br.edu.ifpr.agenda.model.dao.PostDAO;
+import br.edu.ifpr.agenda.model.dao.TarefaDAO;
+import br.edu.ifpr.agenda.model.dao.UserDAO;
 
 public class AgendaView{
     final static Scanner sc = new Scanner(System.in);
